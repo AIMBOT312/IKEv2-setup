@@ -42,7 +42,7 @@ Configuration files, scripts and instructions are sent by email. They are also d
 * There's no IPv6 support — and, in fact, IPv6 networking is disabled — because supporting IPv6 prevents the use of `forceencaps`, and honestly also because I haven't got to grips with the security implications (`ip6tables` rules and so on).
 * The script **won't** work as-is on 16.04 LTS because the `certbot` package is outdated, found under the name `letsencrypt`, and doesn't renew certificates automatically.
 * **Don't use this unmodified on a server you use for anything else**: it does as it sees fit with various wider settings that may conflict with what you're doing.
-
+w
 
 ## How?
 
@@ -63,7 +63,7 @@ Configuration files, scripts and instructions are sent by email. They are also d
 
 4. On your new server installation, become `root`, download the script, give it execute permissions, and run it:
 
-       wget https://raw.githubusercontent.com/jawj/IKEv2-setup/master/setup.sh
+       wget https://raw.githubusercontent.com/AIMBOT312/IKEv2-setup/master/setup.sh
        chmod u+x setup.sh
        ./setup.sh
     
